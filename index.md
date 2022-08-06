@@ -1,37 +1,161 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <link href="./style.css" rel="stylesheet">
 
-You can use the [editor on GitHub](https://github.com/SREEHARI-98/Portfolio.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+</head>
+<body style="background-color: #212529;">
+  <nav class="navbar navbar-expand-lg navbar-dark ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img id="logo" src="./Images/SH.jpg" alt="Sree Hari"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse"  id="navbarNavAltMarkup">
+        <div class="navbar-nav" id="def">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link" href="#About">About</a>
+          <a class="nav-link " href="#skills"> Skills</a>
+          <a class="nav-link" href="#contact">Contact</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+          <section>
+          <div class="container-fluid mb-3 " >
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+            <div  id="he" class="col row">
+                <h1  class="text-center text-white pb-5 ">Front End Developer and Web Designer based in India.<br> 
+                  Creating unique & affordable websites.</h1>
+            </div>
 
-### Markdown
+          </div>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+        </section>
+        <section>
+          <div id="About" class="container mt-5" id="d3">
+            <div class="row">
+              <div class="col-md-6 p-4 container">
+                <div  class="card container">
+              <img style="object-fit: fill;" src="./Images/ab2.png" alt=" ">
+                  </div>
 
-```markdown
-Syntax highlighted code block
+              </div>
+              <div  class="col-md-6 p-5 ">
+                <h2 style="color: aliceblue;">About Me</h2>
+                <p>Hi, I am Sreehari I am into web designing and
+                  web services that can understand and develop brand 
+                  philosophies, the design that can understand and create brand philosophies
+                  can give user a rich experience and a simple message.
+                  I can help your brand to bring to web service.</p>
+                </p>
+              </div>
+            </div>
+            </div>
+          </section>
+            <div id="carouselExampleControls" class="carousel slide mt-5" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img style="opacity: 0.9;" src="./Images/a1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img style="opacity: 0.9;" src="./Images/a2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <!-- <div class="carousel-item">
+                  <img src="./Images/a4.png" class="d-block w-100" alt="...">
+                </div> -->
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <marquee id="mark" scrollamount=20> WEB DESIGNING & DEVELOPMENT</marquee>
 
-# Header 1
-## Header 2
-### Header 3
+            <!-- <hr style="color:aliceblue;height: 5px;"> -->
+            <div class="container mt-5">
+              <div class="row ">
+                <div class="col-md-6">
+                  <div id="skills" class=" bg-dark ">
+                    <h2 class="text-center ">Skills</h2>
+                    
+                    <h6 class="text-center text-white mt-2">Python</h6>
+                    <div class="progress">
+                      <div class="progress-bar " role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">75%</div>
+                    </div>
+                    <h6 class="text-center text-white mt-2">JavaScript</h6>
+      
+                    <div class="progress">
+                      <div class="progress-bar " role="progressbar" style="width: 80%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">80%</div>
+                    </div>
+                    <h6 class="text-center text-white mt-2">Node JS</h6>
+      
+                    <div class="progress">
+                      <div class="progress-bar " role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+                    </div>
+                    <h6 class="text-center text-white mt-2">Html</h6>
+                    <div class="progress">
+                      <div class="progress-bar " role="progressbar" style="width: 100%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">100%</div>
+                    </div>
+                    <h6 class="text-center text-white mt-2">Css</h6>
+      
+                    <div class="progress">
+                      <div class="progress-bar " role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+                    </div>
+                   </div>
+                </div>
+                <div class="col-md-6">
+                  <div class=" bg-dark">
+                    <h2 class=" text-center ">Tools</h2>
+                    <h6 class="text-center text-white mt-2">Visual Studio Code </h6>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">80%</div>
+                    </div>
+                    <h6 class="text-center text-white mt-2">PhotoShop</h6>
+      
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">75%</div>
+                    </div>
+                    <h6 class="text-center text-white mt-2"> Figma</h6>
+      
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">60%</div>
+                    </div>
+                   </div>
+                  </div>
+                </div>
+            
+                </div>
+              </div>
+            </div>
+            <div  class="container mt-5">
+              <div id="contact" class="row">
+                <div class="col container-fluid">
 
-- Bulleted
-- List
+                <h1 class="text-center">Contact</h1>
+                <h3 class="text-center">e-mail:  sreeharirao98@gmail.com</h3>
+                </div>
 
-1. Numbered
-2. List
+              </div>
+            </div>
+    <div class=" container-fluid mt-5">
+    <div class="row">
+      <div class="col-12 text-center bg-white text-white">
+        <h6 class="pt-2 pb-2 text-dark" >Designed & Built by Sreehari  © Copyright 2021.</h6>
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/SREEHARI-98/Portfolio.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+      </div>
+    </div>      
+    </div>
+</body>
+</html>
